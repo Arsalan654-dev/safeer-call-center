@@ -1,0 +1,61 @@
+/* ==========================================================================
+   fonts.css — self-hosted @font-face declarations (own, no third-party CDN)
+   Uses the woff2 files already present in assets/fonts/.
+   Jost & Manrope are variable fonts (single file spans the weight axis);
+   Poppins ships as static per-weight files.
+   ========================================================================== */
+
+/* ---- Jost (headings) — variable weight 100–900 ---- */
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/jost-92zatbhpnqw73otd4g.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/jost-92zutbhpnqw73oht4d4h.woff2") format("woff2");
+}
+
+/* ---- Manrope (body) — variable weight 200–800 ---- */
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 200 800;
+  font-display: swap;
+  src: url("../fonts/manrope-xn7gyhe41ni1adirggexsg.woff2") format("woff2");
+}
+
+/* ---- Poppins (buttons / eyebrow labels) — static weights ---- */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/poppins-pxieyp8kv8jhgfvrjjfecg.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/poppins-pxibyp8kv8jhgfvrlgt9z1xlfq.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/poppins-pxibyp8kv8jhgfvrlej6z1xlfq.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/poppins-pxibyp8kv8jhgfvrlcz7z1xlfq.woff2") format("woff2");
+}
